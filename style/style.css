@@ -203,7 +203,7 @@
     height: 100%;
 }
 
-.about-box-1{
+.about-box-1 {
     text-align: center;
     align-content: center;
 }
@@ -234,7 +234,51 @@
     font-weight: 600;
     line-height: 38px;
     text-align: center;
-    margin:20px;
+    margin: 20px;
     opacity: 0.7;
+
+}
+
+/* This is footer section  */
+.footer{
+    background-image: url(/assets/social-bg.png);
+    height: 400px;
+}
+.footer-box {
+    text-align: center;
+    margin: 100px auto;
+    background-color: white;
+    opacity: 0.9;
+    height: 400px;
+    align-content: center;
+}
+
+.footer-box h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+
+}
+
+.footer-box p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.6;
+
+}
+
+.footer-box h3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin:20px 0;
+    
 
 }
