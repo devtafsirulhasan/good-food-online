@@ -114,7 +114,7 @@
     height: 283px;
 }
 
-.food-btn {
+.food-btn, .card-food-btn{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 24px;
@@ -130,7 +130,7 @@
     display: block;
 }
 
-.discount {
+.discount, .card-discount{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 30px;
@@ -140,7 +140,7 @@
     text-align: center;
 }
 
-.food-description {
+.food-description, .card-food-description{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 18px;
@@ -166,4 +166,13 @@
     border: none;
     margin: 0 auto;
     display: block;
+}
+/* Start card section */
+.card-main{
+    padding:200px 0;
+}
+.card-parent{
+    margin:0 auto;
+    width: 424px;
+    text-align:center;
 }
